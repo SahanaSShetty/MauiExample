@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFocusIssue.MainPage"
+             Title="MainPage">
+    <VerticalStackLayout
+        Padding="10">
+        <Button Text="Click to Relative layout page."
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="OnButtonClicked" />
+        <Label x:Name="label"
+               Text="Click the Button above"
+               FontSize="18"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+    </VerticalStackLayout>
+   
+</ContentPage>
+  
